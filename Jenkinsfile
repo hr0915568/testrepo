@@ -10,6 +10,6 @@ node {
     
     stage('Deploy') {
         echo 'Deploying....'
-	sh 'cp index.html /var/www/html/index.html'
+	sh 'cp index.html.1 /var/www/html/index.html'
     }
 }
